@@ -5,11 +5,13 @@ VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "odev", "odev\odev.csproj", "{AC578164-6536-4832-B9FC-D8EF6D23F631}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odev1", "Odev1\Odev1.csproj", "{FE3C2071-D724-4861-AAE2-FB8A804A2F96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Odev1", "Odev1\Odev1.csproj", "{FE3C2071-D724-4861-AAE2-FB8A804A2F96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{3BB270B7-265B-4475-A811-6C525CD7AF06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{3BB270B7-265B-4475-A811-6C525CD7AF06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMethodDemo", "ClassMethodDemo\ClassMethodDemo.csproj", "{57CD8C81-9973-477E-8160-D102E64914C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassMethodDemo", "ClassMethodDemo\ClassMethodDemo.csproj", "{57CD8C81-9973-477E-8160-D102E64914C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceTypes", "ReferenceTypes\ReferenceTypes.csproj", "{ACD8E63F-6638-428E-B9FB-F3338795C491}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{57CD8C81-9973-477E-8160-D102E64914C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57CD8C81-9973-477E-8160-D102E64914C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57CD8C81-9973-477E-8160-D102E64914C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACD8E63F-6638-428E-B9FB-F3338795C491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD8E63F-6638-428E-B9FB-F3338795C491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD8E63F-6638-428E-B9FB-F3338795C491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD8E63F-6638-428E-B9FB-F3338795C491}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
