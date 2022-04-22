@@ -15,6 +15,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReferenceTypes", "Reference
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructors", "Constructors\Constructors.csproj", "{0E983E71-D118-4989-B91E-A27E96B41226}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{DD3A1650-60E4-42AE-95B0-5659C1CF0586}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary", "Dictionary\Dictionary.csproj", "{48EB403E-257B-4253-AFB6-AEBEC1B70F0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{0E983E71-D118-4989-B91E-A27E96B41226}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E983E71-D118-4989-B91E-A27E96B41226}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E983E71-D118-4989-B91E-A27E96B41226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD3A1650-60E4-42AE-95B0-5659C1CF0586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD3A1650-60E4-42AE-95B0-5659C1CF0586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD3A1650-60E4-42AE-95B0-5659C1CF0586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD3A1650-60E4-42AE-95B0-5659C1CF0586}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48EB403E-257B-4253-AFB6-AEBEC1B70F0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48EB403E-257B-4253-AFB6-AEBEC1B70F0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48EB403E-257B-4253-AFB6-AEBEC1B70F0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48EB403E-257B-4253-AFB6-AEBEC1B70F0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
