@@ -27,7 +27,7 @@ namespace InterfacesDemo
             {
                 new Manager(),
                 new Worker()
-            }
+            };
 
 
         }
