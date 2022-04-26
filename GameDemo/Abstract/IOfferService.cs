@@ -9,7 +9,7 @@ namespace GameDemo.Abstract
 {
     internal interface IOfferService
     {
-        public void NewOffer(Offer offer);
+        public void AddNewOffer(Offer offer);
         public void DeleteOffer(Offer offer);
         public void UpdateOffer(Offer offer);
     }
