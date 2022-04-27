@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GameDemoV2.Concrete;
+using System;
 
 namespace GameDemoV2
 {
@@ -6,7 +7,11 @@ namespace GameDemoV2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Game game = new Game() { GameID = 1, GameName = "Game1", UnitPrice = 1234 };
+            GameManager gamerManager = new GameManager();
+
+            gamerManager.Add(game);
+
         }
     }
 }

@@ -10,6 +10,8 @@ namespace GameDemoV2
     {
         public void Add(Game game);
         public void Delete(Game game);
+        public void Sell(Game game);
+
         public void Update(Game game);
     }
 }

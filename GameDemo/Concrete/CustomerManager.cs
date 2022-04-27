@@ -12,7 +12,7 @@ namespace GameDemo.Concrete
     {
         ICustomerCheckService _customerCheckService;
 
-        public CustomerManager(CustomerCheckManager customerCheckService)
+        public CustomerManager(ICustomerCheckService customerCheckService)
         {
             _customerCheckService = customerCheckService;
         }

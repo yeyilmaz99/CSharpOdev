@@ -25,7 +25,7 @@ namespace GameDemo
             customerManager.UpdateCustomer(customer);
             customerManager.RemoveCustomer(customer);
 
-            offerManager.NewOffer(offer1);
+            offerManager.AddNewOffer(offer1);
             offerManager.UpdateOffer(offer1);
             offerManager.DeleteOffer(offer1);
         }

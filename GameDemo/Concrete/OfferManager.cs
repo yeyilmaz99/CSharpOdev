@@ -15,7 +15,7 @@ namespace GameDemo.Concrete
             Console.WriteLine(offer.OfferName + " is deleted");
         }
 
-        public void NewOffer(Offer offer)
+        public void AddNewOffer(Offer offer)
         {
             Console.WriteLine(offer.OfferName + " is created");
         }
