@@ -8,8 +8,8 @@ namespace GameDemoV2
 {
     internal interface IGameService
     {
-        public void Add();
-        public void Delete();
-        public void Update();
+        public void Add(Game game);
+        public void Delete(Game game);
+        public void Update(Game game);
     }
 }

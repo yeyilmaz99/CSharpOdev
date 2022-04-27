@@ -8,8 +8,8 @@ namespace GameDemoV2
 {
     internal interface ICustomerService
     {
-        public void Add();
-        public void Update();   
-        public void Delete();
+        public void Add(Customer customer);
+        public void Update(Customer customer);   
+        public void Delete(Customer customer);
     }
 }
