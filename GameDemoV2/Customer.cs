@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GameDemoV2
 {
-    internal class Customer
+    internal class Customer:IEntity
     {
         public int Id { get; set; }
         public string FirstName { get; set; }
