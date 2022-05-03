@@ -12,6 +12,9 @@ namespace EntityFrameworkDemo
         public int CategoryId { get; set; } // foreign key
         public string ProductName { get; set; }
         public string QuantityPerUnit { get; set; }
+        public decimal UnitPrice { get; set; }
+        public short UnitInStock { get; set; }
+
 
     }
 }
