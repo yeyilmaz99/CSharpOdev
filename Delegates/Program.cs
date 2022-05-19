@@ -18,7 +18,11 @@ namespace Delegates
 
             myDelegate -= customerManager.SendMessage;
 
-            MyDelegate2 myDelegate2 = customerManager.SendMessage;
+            MyDelegate2 myDelegate2 = customerManager.SendMessage2;
+            myDelegate2 += customerManager.ShowAlert2;
+
+            myDelegate2("Hello");
+
 
             myDelegate();
         }
@@ -40,13 +44,13 @@ namespace Delegates
 
             public void SendMessage2(string message)
             {
-                Console.WriteLine("Hello!");
+                Console.WriteLine(message);
             }
 
 
             public void ShowAlert2(string alert)
             {
-                Console.WriteLine("Be Careful!");
+                Console.WriteLine(alert);
             }
 
 
