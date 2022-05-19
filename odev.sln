@@ -47,6 +47,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkDemo", "Enti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Attributes", "Attributes\Attributes.csproj", "{A0BDFE78-3874-4B98-A815-541D87D07B3A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{DE6240D3-81E2-4F14-9D53-57ED88662D8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{A0BDFE78-3874-4B98-A815-541D87D07B3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0BDFE78-3874-4B98-A815-541D87D07B3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0BDFE78-3874-4B98-A815-541D87D07B3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE6240D3-81E2-4F14-9D53-57ED88662D8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE6240D3-81E2-4F14-9D53-57ED88662D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE6240D3-81E2-4F14-9D53-57ED88662D8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE6240D3-81E2-4F14-9D53-57ED88662D8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
