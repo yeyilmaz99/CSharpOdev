@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reflection;
 
 namespace Reflection
 {
@@ -22,7 +23,29 @@ namespace Reflection
 
             var instance = Activator.CreateInstance(type, 6,7);
 
-            Console.WriteLine(instance.GetType().GetMethod("Topla2").Invoke(instance, null)); 
+
+            MethodInfo methodInfo = instance.GetType().GetMethod("Topla2");
+
+            
+            Console.WriteLine(methodInfo.Invoke(instance, null));
+
+
+            Console.WriteLine("************");
+            var methodlar = type.GetMethods();
+
+            foreach (var info in methodlar)
+            {
+                Console.WriteLine("Methodadı : {0}",info.Name);
+                foreach (var parameterInfo in info.GetParameters())
+                {
+                    Console.WriteLine("Parametre : {0} " , parameterInfo.Name);
+                }
+                foreach(var attribute in info.GetCustomAttributes())
+                {
+                    Console.WriteLine("Attribute Name : {0}", attribute.GetType().Name);
+                }
+
+            }
 
             Console.ReadLine();
 
@@ -35,7 +58,7 @@ namespace Reflection
             
         }
     }
-
+    
     public class DortIslem
     {
 
@@ -64,12 +87,19 @@ namespace Reflection
         {
             return _sayi1 + _sayi2;
         }
+        [MethodName("carbmaMethodu")]
         public int Carp2()
         {
             return _sayi1 * _sayi2;
         }
 
+        class MethodNameAttribute : Attribute
+        {
+            public MethodNameAttribute(string name)
+            {
 
+            }
+        }
 
 
 
