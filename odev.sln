@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{5ED99130-76BB-498C-ACF5-1BA29B2515D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_Func", "_Func\_Func.csproj", "{36D84AAE-E048-4774-89E4-C49814458130}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{5ED99130-76BB-498C-ACF5-1BA29B2515D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5ED99130-76BB-498C-ACF5-1BA29B2515D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5ED99130-76BB-498C-ACF5-1BA29B2515D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36D84AAE-E048-4774-89E4-C49814458130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36D84AAE-E048-4774-89E4-C49814458130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36D84AAE-E048-4774-89E4-C49814458130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36D84AAE-E048-4774-89E4-C49814458130}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
