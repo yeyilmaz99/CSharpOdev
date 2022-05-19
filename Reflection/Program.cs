@@ -14,7 +14,17 @@ namespace Reflection
 
             var type = typeof(DortIslem);
 
-            var dortIslem = Activator.CreateInstance(type);
+            DortIslem dortIslem = (DortIslem)Activator.CreateInstance(type,6,7);
+
+            //Console.WriteLine(dortIslem.Topla(2, 5));
+            //Console.WriteLine(dortIslem.Topla2());
+
+
+            var instance = Activator.CreateInstance(type, 6,7);
+
+            Console.WriteLine(instance.GetType().GetMethod("Topla2").Invoke(instance, null)); 
+
+            Console.ReadLine();
 
 
 
@@ -36,6 +46,10 @@ namespace Reflection
         {
             _sayi1 = sayi1;
             _sayi2 = sayi2;
+        }
+        public DortIslem()
+        {
+
         }
 
         public int Topla(int sayi1,int sayi2)
